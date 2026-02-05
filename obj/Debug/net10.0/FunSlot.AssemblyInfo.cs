@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunSlot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f31aa03426aba5118df01dd2f912fae7f5c7421a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bcc16e6e7be1c9b8dde9ea9fd160ac62d708805")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunSlot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunSlot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
