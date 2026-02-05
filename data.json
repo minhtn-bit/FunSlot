@@ -1,4 +1,118 @@
 {
+  "symbols": [
+    {
+      "id": 1,
+      "code": "2",
+      "name": "Big Boss",
+      "type": "SYMBOL",
+      "paytable": [0, 15, 30, 60, 120]
+    },
+    {
+      "id": 2,
+      "code": "3",
+      "name": "Henchman 1",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 20, 40, 80]
+    },
+    {
+      "id": 3,
+      "code": "4",
+      "name": "Henchman 2",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 15, 30, 60]
+    },
+    {
+      "id": 4,
+      "code": "5",
+      "name": "Henchman 3",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 15, 30, 60]
+    },
+    {
+      "id": 5,
+      "code": "6",
+      "name": "A",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 8, 15, 30]
+    },
+    {
+      "id": 6,
+      "code": "7",
+      "name": "K",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 8, 15, 30]
+    },
+    {
+      "id": 7,
+      "code": "8",
+      "name": "Q",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 5, 10, 20]
+    },
+    {
+      "id": 8,
+      "code": "9",
+      "name": "J",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 5, 10, 20]
+    },
+    {
+      "id": 9,
+      "code": "B",
+      "name": "10",
+      "type": "SYMBOL",
+      "paytable": [0, 0, 4, 8, 16]
+    },
+    {
+      "id": 10,
+      "code": "K",
+      "name": "Wild John",
+      "type": "WILD",
+      "paytable": [0, 0, 0, 0, 500]
+    },
+    {
+      "id": 11,
+      "code": "K1",
+      "name": "Wild Pencil",
+      "type": "WILD",
+      "paytable": [0, 0, 0, 0, 500]
+    },
+    {
+      "id": 12,
+      "code": "K2",
+      "name": "Wild Handgun",
+      "type": "WILD",
+      "paytable": [0, 0, 0, 0, 500]
+    },
+    {
+      "id": 13,
+      "code": "K3",
+      "name": "Wild SMG",
+      "type": "WILD",
+      "paytable": [0, 0, 0, 0, 500]
+    },
+    {
+      "id": 14,
+      "code": "K4",
+      "name": "Wild Sniper",
+      "type": "WILD",
+      "paytable": [0, 0, 0, 0, 500]
+    },
+    {
+      "id": 15,
+      "code": "K5",
+      "name": "Sub Wild",
+      "type": "WILD",
+      "paytable": [0, 0, 0, 0, 500]
+    },
+    {
+      "id": 16,
+      "code": "A",
+      "name": "Scatter",
+      "type": "SCATTER",
+      "freespin": [0, 0, 5, 5, 5]
+    }
+  ],
   "reelConfigs": [
     {
       "reelIdx": 0,
@@ -22,11 +136,11 @@
     }
   ],
   "baseReel": [
-    ["31", "41", "51", "61", "71", "81", "91", "A"],
-    ["32", "42", "52", "62", "72", "82", "92", "B"],
-    ["33", "43", "53", "63", "73", "83", "93", "C3"],
-    ["34", "4", "54", "64", "74", "48", "94", "D4"],
-    ["35", "4", "55", "65", "75", "85", "95", "E5"]
+    ["3", "4", "5", "6", "7", "8", "9", "B"],
+    ["3", "4", "5", "6", "7", "8", "9", "B"],
+    ["3", "4", "5", "6", "7", "8", "9", "B"],
+    ["3", "4", "5", "6", "7", "8", "9", "B"],
+    ["3", "4", "5", "6", "7", "8", "9", "B"]
   ],
   "numberScatter": { "value": [0, 1, 2, 3], "percent": [97, 98, 99, 100] },
   "scatterReelDistribution": {
