@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj": {}
+    "/Users/frehser_game_math_05/Documents/GitHub/FunSlot/FunSlot.csproj": {}
   },
   "projects": {
-    "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj": {
+    "/Users/frehser_game_math_05/Documents/GitHub/FunSlot/FunSlot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj",
+        "projectUniqueName": "/Users/frehser_game_math_05/Documents/GitHub/FunSlot/FunSlot.csproj",
         "projectName": "FunSlot",
-        "projectPath": "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj",
+        "projectPath": "/Users/frehser_game_math_05/Documents/GitHub/FunSlot/FunSlot.csproj",
         "packagesPath": "/Users/frehser_game_math_05/.nuget/packages/",
-        "outputPath": "/Users/frehser_game_math_05/GC Project/Fun Slot/obj/",
+        "outputPath": "/Users/frehser_game_math_05/Documents/GitHub/FunSlot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/frehser_game_math_05/.nuget/NuGet/NuGet.Config"
