@@ -2,20 +2,6 @@ using System;
 
 public class SlotMatrix
 {
-
-    // public string[][] CreateEmptyMatrix(int row, int[] cols)
-    // {
-    //     string[][] grid = new string[row][];
-
-    //     for (int i = 0; i < row; i++)
-    //     {
-    //         for (int j = 0; j < cols[i]; j++)
-    //         {
-    //             grid[i][j] = " a";
-    //         }
-    //     }
-    //     return grid;
-    // }
     public static void drawScreen(string[][] grid)
     {
         for (int r = 0; r < grid.Length; r++)

@@ -49,7 +49,7 @@ namespace FunSlot
 
             foreach (string sym in grid[0])
             {
-                baseSymbol.Add(sym, new List<int>);
+                baseSymbol.Add(sym, new List<int>());
             }
             return baseSymbol;
         }

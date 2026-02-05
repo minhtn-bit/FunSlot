@@ -13,3 +13,18 @@
 /Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.pdb
 /Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.genruntimeconfig.cache
 /Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/ref/FunSlot.dll
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.AssemblyInfoInputs.cache
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.AssemblyInfo.cs
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.csproj.CoreCompileInputs.cache
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.sourcelink.json
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.dll
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/refint/FunSlot.dll
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.pdb
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/bin/Debug/net10.0/FunSlot
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/bin/Debug/net10.0/FunSlot.deps.json
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/bin/Debug/net10.0/FunSlot.runtimeconfig.json
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/bin/Debug/net10.0/FunSlot.dll
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/bin/Debug/net10.0/FunSlot.pdb
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/FunSlot.genruntimeconfig.cache
+/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/Debug/net10.0/ref/FunSlot.dll

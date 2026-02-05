@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj": {}
+    "/Users/gc-tom/Downloads/Code/Fish/FunSlot/FunSlot.csproj": {}
   },
   "projects": {
-    "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj": {
+    "/Users/gc-tom/Downloads/Code/Fish/FunSlot/FunSlot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj",
+        "projectUniqueName": "/Users/gc-tom/Downloads/Code/Fish/FunSlot/FunSlot.csproj",
         "projectName": "FunSlot",
-        "projectPath": "/Users/frehser_game_math_05/GC Project/Fun Slot/FunSlot.csproj",
-        "packagesPath": "/Users/frehser_game_math_05/.nuget/packages/",
-        "outputPath": "/Users/frehser_game_math_05/GC Project/Fun Slot/obj/",
+        "projectPath": "/Users/gc-tom/Downloads/Code/Fish/FunSlot/FunSlot.csproj",
+        "packagesPath": "/Users/gc-tom/.nuget/packages/",
+        "outputPath": "/Users/gc-tom/Downloads/Code/Fish/FunSlot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/frehser_game_math_05/.nuget/NuGet/NuGet.Config"
+          "/Users/gc-tom/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
