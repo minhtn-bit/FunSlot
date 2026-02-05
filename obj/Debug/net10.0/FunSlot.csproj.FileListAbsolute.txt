@@ -1,0 +1,15 @@
+/Users/frehser_game_math_05/GC Project/Fun Slot/bin/Debug/net10.0/FunSlot
+/Users/frehser_game_math_05/GC Project/Fun Slot/bin/Debug/net10.0/FunSlot.deps.json
+/Users/frehser_game_math_05/GC Project/Fun Slot/bin/Debug/net10.0/FunSlot.runtimeconfig.json
+/Users/frehser_game_math_05/GC Project/Fun Slot/bin/Debug/net10.0/FunSlot.dll
+/Users/frehser_game_math_05/GC Project/Fun Slot/bin/Debug/net10.0/FunSlot.pdb
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.AssemblyInfoInputs.cache
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.AssemblyInfo.cs
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.csproj.CoreCompileInputs.cache
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.sourcelink.json
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.dll
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/refint/FunSlot.dll
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.pdb
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/FunSlot.genruntimeconfig.cache
+/Users/frehser_game_math_05/GC Project/Fun Slot/obj/Debug/net10.0/ref/FunSlot.dll
