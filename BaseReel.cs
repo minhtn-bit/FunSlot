@@ -17,7 +17,6 @@ namespace FunSlot
                     string symbolCode = SlotMatrix.RandomByCumWeights(baseReel, perConfig, random);
                     grid = SlotMatrix.FillSymbol(symbolCode, grid);
                 }
-
             }
             return grid;
         }
