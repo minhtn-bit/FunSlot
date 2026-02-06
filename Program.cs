@@ -11,64 +11,37 @@ namespace FunSlot
             string jsonPath = "data.json";
             string jsonContent = File.ReadAllText(jsonPath);
             var config = JsonSerializer.Deserialize<Configs>(jsonContent);
-            int[] rows = { 3, 3, 3 };
+            int[] rows = { 3, 3, 3, 3, 3 };
             SlotMatrix slotMatrix = new SlotMatrix();
             Random random = new Random();
             string[][] grid = slotMatrix.CreateEmptyMatrix(rows.Length, rows);
-            grid[0][0] = "SSS";
             BaseReel.FillBaseReel(config, rows, grid, random);
             SlotMatrix.drawScreen(grid);
-        }
-    }
-    class BaseReel
-    {
-        public static string[][] FillBaseReel(Configs config, int[] rows, string[][] grid, Random random)
-        {
-
-            for (int i = 0; i < rows.Length; i++)
-
+            Payline payline = new Payline();
+            Dictionary<string, int[]> listSymbol = payline.GetFirstReelSymbol(grid);
+            payline.CountSymbolOfReel(grid, listSymbol);
+            Dictionary<string, Dictionary<string, object>> listPayout = payline.CalculatePayout(listSymbol);
+            foreach (KeyValuePair<string, Dictionary<string, object>> data in listPayout)
             {
-                for (int j = 0; j < rows[i]; j++)
+                Console.WriteLine(data.Key);
+                foreach (KeyValuePair<string, object> entry in data.Value)
                 {
-                    int[] perConfig = config.reelConfigs[i].perConfig;
-                    string[] baseReel = config.baseReel[i];
-                    string symbolCode = SlotMatrix.RandomByCumWeights(baseReel, perConfig, random);
-                    grid = SlotMatrix.FillSymbol(symbolCode, grid);
-                }
-
-            }
-            return grid;
-        }
-    }
-
-    class Payline
-    {
-        public Dictionary<string, List<int>> GetFirstReelSymbol(string[][] grid)
-        {
-            Dictionary<string, List<int>> baseSymbol = new Dictionary<string, List<int>>();
-
-            foreach (string sym in grid[0])
-            {
-                baseSymbol.Add(sym, new List<int>());
-            }
-            return baseSymbol;
-        }
-        public void CountSymbolOfReel(string[][] grid, Dictionary<string, List<int>> firstSymbol)
-        {
-
-            foreach (string[] reel in grid)
-            {
-                foreach (string symbol in reel)
-                {
-
+                    Console.WriteLine(entry.Key + " : " + entry.Value);
                 }
             }
-            // firstSymbol[symvol] *= soluong 
         }
     }
+
 }
-/// 1 2 3 
-/// 
-/// {"a" : 0}
-/// 
 
+// [
+//   a:  {
+//         "b":c,
+//         "b":c,
+//     },
+
+//    b: {
+//         "b":c,
+//         "b":c,
+//     }
+// ]
