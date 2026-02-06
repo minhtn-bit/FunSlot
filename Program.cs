@@ -8,40 +8,43 @@ namespace FunSlot
     {
         static void Main(string[] args)
         {
-            string jsonPath = "data.json";
+            string jsonPath = Path.Combine(AppContext.BaseDirectory, "data.json");
+            if (!File.Exists(jsonPath))
+            {
+                // Fallback for running from project root without build output.
+                string cwdPath = Path.Combine(Directory.GetCurrentDirectory(), "data.json");
+                if (File.Exists(cwdPath))
+                {
+                    jsonPath = cwdPath;
+                }
+            }
+
             string jsonContent = File.ReadAllText(jsonPath);
             var config = JsonSerializer.Deserialize<Configs>(jsonContent);
+
+
+
             int[] rows = { 3, 3, 3, 3, 3 };
             SlotMatrix slotMatrix = new SlotMatrix();
             Random random = new Random();
             string[][] grid = slotMatrix.CreateEmptyMatrix(rows.Length, rows);
+
             BaseReel.FillBaseReel(config, rows, grid, random);
             SlotMatrix.drawScreen(grid);
             Payline payline = new Payline();
             Dictionary<string, int[]> listSymbol = payline.GetFirstReelSymbol(grid);
             payline.CountSymbolOfReel(grid, listSymbol);
             Dictionary<string, Dictionary<string, object>> listPayout = payline.CalculatePayout(listSymbol);
-            foreach (KeyValuePair<string, Dictionary<string, object>> data in listPayout)
-            {
-                Console.WriteLine(data.Key);
-                foreach (KeyValuePair<string, object> entry in data.Value)
-                {
-                    Console.WriteLine(entry.Key + " : " + entry.Value);
-                }
-            }
+            // foreach (KeyValuePair<string, Dictionary<string, object>> data in listPayout)
+            // {
+            //     Console.WriteLine(data.Key);
+            //     foreach (KeyValuePair<string, object> entry in data.Value)
+            //     {
+            //         Console.WriteLine(entry.Key + " : " + entry.Value);
+            //     }
+            // }
+            payline.PayoutCalculation(listPayout, config.symbols);
         }
     }
 
 }
-
-// [
-//   a:  {
-//         "b":c,
-//         "b":c,
-//     },
-
-//    b: {
-//         "b":c,
-//         "b":c,
-//     }
-// ]
